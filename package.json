@@ -1,0 +1,24 @@
+{
+  "name": "general-playground-codespaces",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --onlyChanged",
+    "start": "tsx src/index",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.2",
+    "babel-jest": "^30.2.0",
+    "jest": "^30.2.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
